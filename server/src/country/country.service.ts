@@ -96,7 +96,7 @@ export class CountryService {
       console.error(
         `Error while getting country flag ${countryCode}: ${error.message}`,
       );
-      return `No country flag for ${countryCode}`;
+      return null;
     }
   }
 }
